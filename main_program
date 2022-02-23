@@ -1,0 +1,22 @@
+public class ClsObj {
+	public static void main(String[] args) {
+          Employee E1=new Employee();
+          E1.Name="Robert";
+          E1.year=1994;
+          E1.addr="WallsStreet";
+          Employee E2=new Employee();
+          E2.Name="Sam";
+          E2.year=2000;
+          E2.addr="WallsStreet";
+          Employee E3=new Employee();
+          E3.Name="John";
+          E3.year=1999;
+          E3.addr="WallsStreet";
+          System.out.println("name\tYear of joining\t\tAddress");
+          System.out.println(E1.Name+"\t"+E1.year+"\t\t\t"+E1.addr);
+          System.out.println(E2.Name+"\t"+E2.year+"\t\t\t"+E2.addr);
+          System.out.println(E3.Name+"\t"+E3.year+"\t\t\t"+E3.addr);
+
+	}
+
+}
